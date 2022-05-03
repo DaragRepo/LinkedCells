@@ -30,7 +30,7 @@ This is an example of how you to use the data structure.
 
 You could follow the example in src/Main.java or you could do the following : 
 
-1. Create your 2d array as an Object data type.
+1. Create your 2d array as an ``` Object ``` data type.
 
  ```sh
   Object arr[][] = {
@@ -70,6 +70,33 @@ You could follow the example in src/Main.java or you could do the following :
   - ``` n[1][0].right.right.data ``` // the right then right of the 2nd row, 1st col element in the array.
 
 
+5. If you want to change the instance to point to another array you could create a new ``` LinkedCells ``` instance and follow the steps above or do the following : 
+
+  * Create the array.
+  ```sh
+Object arr2[][] = {
+    {"hello", "it's", "me"},
+    {"i", "was", "wondering"},
+    {"if", "after", "all"}
+ }; 
+
+ ``` 
+
+  * call ``` setArray ``` from ``` LinkedCells ``` reference and pass the arr.
+
+  ```sh
+ l.setArray(arr2);
+
+  ```
+
+  * make ``` n ``` points to the new instance :
+   ```sh
+
+  n = l.getInstance();
+
+   ```
+
+  * now you can use the ``` n ``` as the first instance.
 
 <!-- CONTRIBUTING -->
 ## Contributing
