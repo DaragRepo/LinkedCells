@@ -55,7 +55,7 @@ You could follow the example in src/Main.java or you could do the following :
 
   ```
 
-4. You can now navigate through the array by using the ``` n[row][col].direction ``` (direction is the pointer) if you want the actual data use ".data" after the direction :
+4. You can now navigate through the array by using the ``` n[row][col].direction ``` (direction is the pointer) if you want the actual data use ```.data ``` after the direction :
   * the available directions are :
     - left.
     - right.
