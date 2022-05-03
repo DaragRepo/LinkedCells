@@ -40,7 +40,7 @@ You could follow the example in src/Main.java or you could do the following :
         };
   ```
 
-2. Create an instance of ```sh LinkedCells ``` class and give it the 2d array.
+2. Create an instance of ``` LinkedCells ``` class and give it the 2d array.
 
  ```sh
  LinkedCells l = new LinkedCells(arr);
@@ -48,14 +48,14 @@ You could follow the example in src/Main.java or you could do the following :
   ```
 
 
-3. Create a 2d array of type "Node" and call ```sh getInstance() ``` from the ```sh LinkedCells ``` class.
+3. Create a 2d array of type "Node" and call ``` getInstance() ``` from the ``` LinkedCells ``` class.
 
  ```sh
  Node n[][] = l.getInstance();
 
   ```
 
-4. You can now navigate through the array by using the ```sh n[row][col].direction ``` (direction is the pointer) if you want the actual data use ".data" after the direction :
+4. You can now navigate through the array by using the ``` n[row][col].direction ``` (direction is the pointer) if you want the actual data use ".data" after the direction :
   * the available directions are :
     - left.
     - right.
@@ -66,8 +66,8 @@ You could follow the example in src/Main.java or you could do the following :
     - diagonalTopRight.
     - diagonalBottomLeft. 
  * Examples : 
-  - ```sh n[0][0].right.bottom.data ``` // the right then bottom of the first element in the array.
-  - ```sh n[1][0].right.right.data ``` // the right then right of the 2nd row, 1st col element in the array.
+  - ``` n[0][0].right.bottom.data ``` // the right then bottom of the first element in the array.
+  - ``` n[1][0].right.right.data ``` // the right then right of the 2nd row, 1st col element in the array.
 
 
 
